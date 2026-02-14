@@ -49,10 +49,14 @@ border-radius:10px;
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
-.card img{
-width:100%;
-border-radius:10px;
-}
+.review-img{
+  width:130px;
+  height:130px;
+  border-radius:50%;
+  object-fit:cover;
+  display:block;
+  margin:0 auto 10px auto;
+
 
 .footer{
 background:black;
@@ -131,36 +135,26 @@ box-shadow:0 4px 10px rgba(0,0,0,0.3);
 <div class="card"><p><b>Char Dham Yatra</b> – ₹23,000</p></div>
 <div class="card"><p><b>Mussoorie – Nainital – Auli</b> – ₹15,500</p></div>
 
-<!-- REVIEWS -->
+
 <h2>Customer Reviews</h2>
-
 <div class="card" style="text-align:center;">
-
-<img src="review1.jpg" style="width:130px;height:130px;border-radius:50%;object-fit:cover;margin-bottom:10px;">    
-    <h3 style="margin:5px 0;">Kushal Anand – Bengaluru</h3>
-    <p style="color:gold;font-size:18px;margin:5px 0;">
-        ★★★★★
-    </p>
-    
-    <p style="font-size:15px;">
-        Char Dham yatra bahut hi achhi rahi. Gaadi clean thi aur driver bahut hi professional aur vinamra tha. 
-        Pura tour safe aur comfortable raha. Main Dhamvas ko zaroor recommend karunga.
-    </p>
+  <img src="review1.jpg" class="review-img">
+  <h3 style="margin:5px 0;">Kushal Anand - Bengaluru</h3>
+  <p style="color:gold;font-size:18px;margin:5px 0;">★★★★★</p>
+  <p style="font-size:15px;">
+    Char Dham yatra bahut hi achhi rahi. Gaadi clean thi aur pura tour safe aur comfortable raha.
+  </p>
 </div>
+
 <div class="card" style="text-align:center;">
- 
-<img src="review2.jpg" style="width:130px;height:130px;border-radius:50%;object-fit:cover;margin-bottom:10px;">  
-    <h3 style="margin:5px 0;">Anita Verma – Mumbai</h3>
-    
-    <p style="color:gold;font-size:18px;margin:5px 0;">
-        ★★★★★
-    </p>
-    
-    <p style="font-size:15px;">
-        Kedarnath yatra bahut smooth rahi. Driver punctual tha aur route knowledge bahut achha tha.
-        Excellent service!
-    </p>
-</div>    
+  <img src="review2.jpg" class="review-img">
+  <h3 style="margin:5px 0;">Sonal Gupta - Mumbai</h3>
+  <p style="color:gold;font-size:18px;margin:5px 0;">★★★★★</p>
+  <p style="font-size:15px;">
+    Kedarnath yatra bahut smooth rahi. Driver punctual tha aur excellent service mili.
+  </p>
+</div>
+
 <!-- DESTINATIONS -->
 <h2>Uttarakhand Destinations</h2>
 
