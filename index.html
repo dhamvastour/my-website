@@ -124,10 +124,30 @@ background: linear-gradient(to bottom, #f8fafc, #e6f0f5);
     gap: 40px;
     flex-wrap: wrap;
     padding: 60px 20px;
+background: linear-gradient(135deg, #f8fffb, #e8f5e9); 
+    border-radius: 20px;
+    margin: 40px 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+ transition: all 0.4s ease;
 }
-
+.experience:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
 .exp-box {
     min-width: 120px;
+    padding: 20px;
+}
+
+.exp-box h2 {
+    font-size: 36px;
+    color: #00c853;
+    margin-bottom: 5px;
+}
+
+.exp-box p {
+    font-size: 16px;
+    color: #555;
 }
 /* WHATSAPP FLOAT */
 .whatsapp-float{
@@ -168,17 +188,17 @@ background: linear-gradient(to bottom, #f8fafc, #e6f0f5);
 
 <section class="experience">
   <div class="exp-box">
-    <h2><span class="counter" data-target="20">0</span>+</h2>
+ <h2 class="counter" data-target="20">0</h2>   
     <p>Years Experience</p>
   </div>
 
   <div class="exp-box">
-    <h2><span class="counter" data-target="5000">0</span>+</h2>
+  <h2 class="counter" data-target="5000">0</h2>  
     <p>Happy Clients</p>
   </div>
 
   <div class="exp-box">
-    <h2><span class="counter" data-target="1200">0</span>+</h2>
+   <h2 class="counter" data-target="1200">0</h2> 
     <p>Tours Completed</p>
   </div>
 </section>
