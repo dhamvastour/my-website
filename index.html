@@ -162,6 +162,114 @@ background: linear-gradient(135deg, #f8fffb, #e8f5e9);
     font-weight:bold;
     box-shadow:0 4px 10px rgba(0,0,0,0.3);
 }
+/* ===== PREMIUM TOUR PACKAGES SECTION ===== */
+
+.premium-packages{
+    padding:80px 20px;
+    background:linear-gradient(to bottom,#0f2027,#203a43,#2c5364);
+    text-align:center;
+}
+
+.main-title{
+    font-size:32px;
+    color:#fff;
+    margin-bottom:50px;
+    font-weight:700;
+}
+
+.premium-card{
+    position:relative;
+    height:420px;
+    border-radius:20px;
+    margin:30px auto;
+    max-width:1000px;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    transition:0.4s ease;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+.premium-card:hover{
+    transform:scale(1.03);
+    box-shadow:0 0 25px rgba(255,215,0,0.6);
+}
+
+.overlay{
+    background:rgba(0,0,0,0.6);
+    padding:40px;
+    border-radius:15px;
+    color:#fff;
+}
+
+.overlay h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.overlay p{
+    font-size:16px;
+    margin-bottom:15px;
+}
+
+.price{
+    display:block;
+    font-size:22px;
+    font-weight:bold;
+    color:#ffd700;
+    margin-bottom:20px;
+}
+
+.book-btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#25D366;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.book-btn:hover{
+    background:#1ebe5d;
+    box-shadow:0 0 15px #25D366;
+}
+
+/* ===== BACKGROUND IMAGES ===== */
+
+.kedarnath{
+    background-image:url('https://images.unsplash.com/photo-1625505820191-83d89f5cb918');
+}
+
+.badrinath{
+    background-image:url('https://images.unsplash.com/photo-1625505820079-8f50c0f759cea');
+}
+
+.gangotri{
+    background-image:url('https://images.unsplash.com/photo-1599661046827-dacde697b53f');
+}
+
+.yamunotri{
+    background-image:url('https://images.unsplash.com/photo-1625505819875-1e606b9c7cdb');
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+    .premium-card{
+        height:350px;
+    }
+    .overlay{
+        padding:20px;
+    }
+    .main-title{
+        font-size:24px;
+    }
+} 
 </style>
 </head>
 
@@ -207,8 +315,7 @@ background: linear-gradient(135deg, #f8fffb, #e8f5e9);
 <section class="premium-packages">
 
 <h2 class="main-title">
-    Our Luxury <br>
-    Char Dham Tour Packages
+  Our Luxury Char Dham Tour Packages
 </h2>
 
 <!-- Kedarnath -->
