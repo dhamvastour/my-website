@@ -732,14 +732,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let updateCounter = () => {
       let target = +counter.getAttribute("data-target");
-      let count = +counter.innerText;
+      let count = +counter.innerText.replace("+",""); 
       let increment = target / 200;
 
       if (count < target) {
         counter.innerText = Math.ceil(count + increment);
         setTimeout(updateCounter, 10);
       } else {
-        counter.innerText = target;
+        counter.innerText = target + "+";
       }
     };
 
@@ -762,7 +762,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 </script>
-
   
 
   
