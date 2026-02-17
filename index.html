@@ -732,12 +732,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let updateCounter = () => {
       let target = +counter.getAttribute("data-target");
-      let count = +counter.innerText.replace("+",""); 
-      let increment = target / 200;
+      let count = +counter.innerText.replace("+","");
+      let increment = target / 350;   // 👈 yaha speed control
 
       if (count < target) {
         counter.innerText = Math.ceil(count + increment);
-        setTimeout(updateCounter, 10);
+        setTimeout(updateCounter, 20); // 👈 yaha delay control
       } else {
         counter.innerText = target + "+";
       }
