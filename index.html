@@ -359,7 +359,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function startCounter() {
     if (started) return;
 
-  const section = document.querySelector('.experience'); 
+    const section = document.querySelector('.experience');
     const sectionTop = section.getBoundingClientRect().top;
     const screenHeight = window.innerHeight;
 
@@ -387,14 +387,15 @@ document.addEventListener("DOMContentLoaded", function () {
       started = true;
     }
   }
-startCounter();
+
+  startCounter();
   window.addEventListener('scroll', startCounter);
+
 });
 
 
 
 
-<script>
 function sendToWhatsApp() {
   var name = document.getElementById("name").value;
   var phone = document.getElementById("phone").value;
