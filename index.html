@@ -729,6 +729,92 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
 }
+   /* ===== TOUR PACKAGE PREMIUM DESIGN ===== */
+
+.tour-packages {
+  padding: 40px 15px;
+  background: #0f5c53;
+}
+
+.section-title {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.package {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+  height: 260px;
+}
+
+.overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.2));
+  height: 100%;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.package h3 {
+  font-size: 20px;
+  margin: 0 0 5px;
+}
+
+.package p {
+  font-size: 13px;
+  margin: 0 0 8px;
+}
+
+.brand {
+  font-size: 12px;
+  color: #ffc107;
+}
+
+.tagline {
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+
+.include {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.price-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price-box small {
+  display: block;
+  font-size: 11px;
+}
+
+.call-btn {
+  background: #ffc107;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
 
 /* ===== HERO SECTION ===== */
 .hero-top {
@@ -837,95 +923,116 @@ body {
     </div>
 </section>
 
-    <section class="tour-packages luxury-section">
+<section class="tour-packages">
 
-  <h2 class="section-title">Our Luxury Chardham Tour Packages</h2>
+<h2 class="section-title">Our Luxury Chardham Tour Packages</h2>
 
-  <!-- 1 Char Dham -->
-<div class="package" style="background-image: url('kedarnath-final.jpg');">  
-    <div class="overlay">
-      <h3>Char Dham Package</h3>
-      <p>Experience divine blessings of Lord Shiva with comfortable stay and smooth transport.</p>
-      <div class="bottom">
-<div style="background:#fff; color:#000; padding:15px; border-radius:12px; margin-top:10px;">
+<!-- 1 CHAR DHAM -->
+<div class="package" style="background-image:url('kedarnath.jpg');">
+  <div class="overlay">
+    <h3>Char Dham Yatra Package</h3>
+    <p class="brand">Dhamvas Tour & Travels</p>
+    <p class="tagline">Char Dham & Uttarakhand Tour Specialist</p>
 
-    <div style="border:1px solid #e5e5e5; padding:12px; border-radius:8px; text-align:center;">
-        ⬇ Download Itinerary
+    <p>10 Days / 9 Nights (Group Tour)</p>
+    <p>Haridwar • Mussoorie • Yamunotri • Gangotri • Badrinath</p>
+
+    <p class="include">Included: Hotel 🏨 Meals 🍲 Transport 🚕 Sightseeing 📷</p>
+
+    <div class="price-box">
+      <span class="price">₹20,999</span>
+      <small>per person (twin sharing)</small>
     </div>
 
-    <p style="margin:5px 0; font-size:14px;">*Starts from</p>
-
-    <h3 style="margin:5px 0; font-size:22px; font-weight:bold;">
-        ₹ 20,999 <span style="color:red; font-size:14px;">13% Off</span>
-    </h3>
-
-    <p style="margin:5px 0; text-decoration:line-through; color:#999;">
-        ₹ 24,000
-    </p>
-
-    <p style="margin:5px 0; font-size:13px;">
-        per person on twin sharing
-   </p>
-   
-   <!-- 👉 यहीं डाल -->
-   <a href="tel:8077703397" class="call-btn">Call Now</a>
-
-   </div>
+    <a href="tel:8077703397" class="call-btn">Call Now</a>
+  </div>
 </div>
+
+<!-- 2 TEEN DHAM -->
+<div class="package" style="background-image:url('yamunotri.jpg');">
+  <div class="overlay">
+    <h3>Teen Dham Yatra Package</h3>
+    <p class="brand">Dhamvas Tour & Travels</p>
+    <p class="tagline">Char Dham & Uttarakhand Tour Specialist</p>
+
+    <p>8 Days / 7 Nights (Single Tour)</p>
+    <p>Haridwar • Mussoorie • Yamunotri • Gangotri • Badrinath</p>
+
+    <p class="include">Included: Hotel 🏨 Meals 🍲 Transport 🚕 Sightseeing 📷</p>
+
+    <div class="price-box">
+      <span class="price">₹28,000</span>
+      <small>per person (twin sharing)</small>
+    </div>
+
+    <a href="tel:8077703397" class="call-btn">Call Now</a>
+  </div>
 </div>
-</div>   
-  
-        
 
-  <!-- 2 Teen Dham -->
-  <div class="package" style="background-image: url('badrinath.jpg');">
-    <div class="overlay">
-      <h3>Teen Dham Package</h3>
-      <p>Spiritual journey of Lord Vishnu’s sacred dham with premium arrangements.</p>
-      <div class="bottom">
-        <span class="price">₹11,999 / Person</span>
-        <a href="tel:8077703397" class="call-btn">Call Now</a>
-      </div>
+<!-- 3 DO DHAM -->
+<div class="package" style="background-image:url('gangotri.jpg');">
+  <div class="overlay">
+    <h3>Do Dham Yatra (Kedarnath & Badrinath)</h3>
+    <p class="brand">Dhamvas Tour & Travels</p>
+    <p class="tagline">Char Dham & Uttarakhand Tour Specialist</p>
+
+    <p>5 Days / 4 Nights (Single Tour)</p>
+    <p>Haridwar • Kedarnath • Badrinath</p>
+
+    <p class="include">Included: Hotel 🏨 Meals 🍲 Transport 🚕 Sightseeing 📷</p>
+
+    <div class="price-box">
+      <span class="price">₹25,000</span>
+      <small>per person (twin sharing)</small>
     </div>
-  </div>
 
-  <!-- 3 Gangotri -->
-  <div class="package" style="background-image: url('gangotri.jpg');">
-    <div class="overlay">
-      <h3>Gangotri Dham Package</h3>
-      <p>Witness the origin of holy River Ganga with safe and comfortable travel.</p>
-      <div class="bottom">
-        <span class="price">₹9,999 / Person</span>
-        <a href="tel:8077703397" class="call-btn">Call Now</a>
-      </div>
+    <a href="tel:8077703397" class="call-btn">Call Now</a>
+  </div>
+</div>
+
+<!-- 4 BADRINATH -->
+<div class="package" style="background-image:url('badrinath.jpg');">
+  <div class="overlay">
+    <h3>Badrinath Yatra Package</h3>
+    <p class="brand">Dhamvas Tour & Travels</p>
+    <p class="tagline">Char Dham & Uttarakhand Tour Specialist</p>
+
+    <p>3 Days / 2 Nights (Group Tour)</p>
+    <p>Rishikesh • Devprayag • Badrinath</p>
+
+    <p class="include">Included: Hotel 🏨 Meals 🍲 Transport 🚕 Sightseeing 📷</p>
+
+    <div class="price-box">
+      <span class="price">₹15,000</span>
+      <small>per person (twin sharing)</small>
     </div>
-  </div>
 
-  <!-- 4 Yamunotri -->
-  <div class="package" style="background-image: url('yamunotri.jpg');">
-    <div class="overlay">
-      <h3>Yamunotri Dham Package</h3>
-      <p>Divine darshan of Maa Yamuna with scenic mountain beauty and peaceful stay.</p>
-      <div class="bottom">
-        <span class="price">₹8,999 / Person</span>
-        <a href="tel:8077703397" class="call-btn">Call Now</a>
-      </div>
+    <a href="tel:8077703397" class="call-btn">Call Now</a>
+  </div>
+</div>
+
+<!-- 5 RISHIKESH TOUR -->
+<div class="package" style="background-image:url('rishikesh.jpg');">
+  <div class="overlay">
+    <h3>Rishikesh Haridwar Tour</h3>
+    <p class="brand">Dhamvas Tour & Travels</p>
+    <p class="tagline">Char Dham & Uttarakhand Tour Specialist</p>
+
+    <p>4 Days / 3 Nights (Single Tour)</p>
+    <p>Rishikesh • Haridwar • Devprayag • Dehradun • Mussoorie • Dhanaulti</p>
+
+    <p class="include">Included: Hotel 🏨 Meals 🍲 Transport 🚕 Sightseeing 📷</p>
+
+    <div class="price-box">
+      <span class="price">₹20,500</span>
+      <small>per person (twin sharing)</small>
     </div>
-  </div>
 
-  <!-- 5 Haridwar Rishikesh -->
-  <div class="package" style="background-image: url('rishikesh.jpg');">
-    <div class="overlay">
-      <h3>Haridwar – Rishikesh & Local Tour Package</h3>
-      <p>Explore the spiritual vibes of Ganga Aarti, sacred temples and peaceful Himalayan surroundings with comfortable travel and guided assistance.</p>
-      <div class="bottom">
-        <span class="price">₹8,000 / Person</span>
-        <a href="tel:8077703397" class="call-btn">Call Now</a>
-      </div>
-    </div>
+    <a href="tel:8077703397" class="call-btn">Call Now</a>
   </div>
+</div>
 
-</section>    
+</section>
    <section class="taxi-section">
 
     <h2 class="section-title">Taxi & Car Rental Services</h2>
